@@ -67,7 +67,7 @@ ol {
 .result__video-container {
   position: relative;
   min-width: 711px;
-  max-height: 386px;
+  height: 386px;
   margin-bottom: 16px;
   cursor: pointer;
 }
@@ -326,19 +326,6 @@ ol {
 .content__card-link_current {
   background-color: #545050;
 }
-
-.content__card-link_current:focus {
-  outline: none;
-}
-
-.content__card-link_current:focus-visible {
-  outline: 1px solid #fff;
-}
-
-.content__card-link_current:active {
-  background-color: #545050;
-}
-
 
 .visually-hidden {
   position: absolute;
